@@ -1,19 +1,20 @@
-import person from "./person.js";
-import prsn from "./person.js";
-import { cleanOutput } from './utils.js';
-import { data } from './utils.js';
+const numbers = [1, 2, 3]
+/*console.log(numbers)
 
-import { cleanOutput as clean } from './utils.js'
+numbers.push(4)
+console.log(numbers)*/
+console.log(numbers)
+const newNumbers = [...numbers, 4]
+console.log(newNumbers)
+
+const person = {
+    name: 'Kertu'
+}
+
+const newPerson = {
+    ...person,
+    age: 25
+}
 
 console.log(person)
-console.log(prsn)
-console.log(data)
-
-cleanOutput()
-console.log(data)
-clean()
-
-cleanOutput()
-
-console.log(utils)
-console.log(utils.data)
+console.log(newPerson)
