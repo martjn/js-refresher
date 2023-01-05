@@ -1,1 +1,1 @@
-document.innerHTML += "yo";
+console.log("yo");
